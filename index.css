@@ -1,0 +1,169 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fefefe;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(90deg, #ff6f61, #ff4a3a);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #ff4a3a;
+  transition: 0.2s;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+}
+
+/* CTA Section */
+.cta {
+  background: #f2f2f2;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin: 40px 20px;
+}
+
+.cta button {
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff4a3a;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.cta button:hover {
+  transform: scale(1.05);
+}
+
+/* Salon Grid */
+.salon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Salon Card */
+.salon-card {
+  width: 260px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.salon-card:hover {
+  transform: translateY(-5px);
+}
+
+.salon-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.salon-card h3 {
+  margin: 10px 0 5px;
+}
+
+.salon-card p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.btn-group button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.call-btn {
+  background-color: #ff4a3a;
+  color: #fff;
+}
+
+.whatsapp-btn {
+  background-color: #25D366;
+  color: #fff;
+}
+
+.btn-group button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .salon-card {
+    width: 90%;
+  }
+}
+.view-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: calc(33% - 10px);
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media(max-width: 768px){
+  .gallery img {
+    width: calc(50% - 10px);
+  }
+}
+footer {
+  text-align: center;      
+  padding: 20px 0;         
+  background-color: #f1f1f1; 
+  color: #333;              
+  position: relative;      
+  bottom: 0;                
+  width: 100%;              
+  font-size: 14px;          
+}
